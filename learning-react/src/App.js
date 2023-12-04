@@ -1,9 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
+import Todo from "./components/Todo";
 
-function App(props) {
+export default function App(props) {
   return (
     <div className="todoapp stack-large">
       <h1>TodoMatic</h1>
